@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,label,em,strong,b,input,select,option,textarea,ul,li,a,span{ margin:0; padding:0}
+li{ list-style:none}
+a{ color:#3c3c3c; text-decoration:none}
+a:hover{ color:#ee004e }
+img{ border:0; vertical-align:top;}
+body{ font-family:"微软雅黑"; font-size:14px; background:#fff; min-width:1260px; color:#000}
+.clearfix{ *zoom:1}
+.clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0; font-size:0}
+
+.top{ width:980px; height:69px; background:url(../images/1.jpg) 0 -37px no-repeat; margin:0 auto;}
+.search{ float:right; width:391px; height:29px; background:#e11d57; border-radius:5px; margin-right:2px; margin-top:19px} 
+.search input{ float:left; display:block; width:282px; height:25px; border:0; margin:2px 0 0 2px; background:url(../images/1.jpg) no-repeat 7px -134px #FFF; padding-left:28px; line-height:25px; color:#6d6d6d; font-size:12px; outline:none}
+.search a{ float:left; display:block; width:79px; height:29px; line-height:29px; color:#FFF; text-align:center;}
+.main{ width:100%; border-top:1px solid #f7bcc9}
+.nav{ width:980px; height:31px; margin:0 auto; position:relative}
+.dingwei{ width:26px; height:16px; position:absolute; left:166px; top:-9px; background:url(../images/1.jpg) no-repeat 0 -183px}
+.nav ul{ float:left}
+.nav li{ float:left}
+.nav li a{ display:block;  height:24px; padding:8px 14px 0; color:#ee004e; line-height:16px; font-weight:bold}
+.nav li a:hover{ background:#ee004e; color:#FFF}
+.nav2{ float:right; padding-top:12px; color:#ee004e; font-size:12px; font-weight:bold}
+.nav2 span{ margin:0 9px 0 10px; color:#f2d1cd}
+.nav2 a{ color:#ee004e}
+.main-2{ width:100%; border-top:5px solid #ef135b ; background:url(../images/2.jpg) no-repeat center 0; padding-bottom:110px}
+.person{ width:965px; height:341px; margin:0 auto ; background:#ceab6d; padding:11px 0 0 15px; position:relative}
+.person dt{ float:left; padding-right:5px; width:464px; height:327px} 
+.person dd{ float:left; margin:0 3px 3px 3px; width:156px; height:162px; position:relative} 
+.person-position{ display:none; width:464px; height:87px; position:absolute; left:15px ; bottom:14px; background:rgba(0,0,0,0.58); color:#eabc70}
+.person dt a{ display:block; width:100%; height:100%}
+.person-position p{ margin:15px 0 0 13px; width:428px; font-size:13px; line-height:20px}
+.person dt:hover .person-position{ display: block}
+.bor{ display:none;  width:156px; height:162px;  position:absolute; top:0px; left:0px}
+.bor a{ display:block; width:152px; height:158px; border:2px solid #ffe5b6;}
+dd:hover .bor{ display:block}
+.recommend{ width:980px; height:auto; margin:12px auto 0; overflow:hidden }
+.include{ width:105%}
+.recommend-1{ float:left; width:449px; height:528px; background:url(../images/10.jpg);padding:16px 0 0 29px; margin-right:23px}
+.recommend-1 dt{ margin-left:3px; margin-bottom:16px}
+.recommend-1 dd{ float:left; width:128px; height:210px; margin-right:18px; font-size:15px; font-weight:bold; text-align:center; margin-bottom:25px}
+.recommend-1 dd p{ margin-top:15px}
+.recommend-2{ background:url(../images/26.jpg)}
+.button{ width:878px; height:39px; margin:0 auto; padding-right:102px; margin-top:357px}
+.duihuan{ float:right; width:158px; height:100%; ; margin-left:15px; text-indent:-99em }
+.see{ float:right; width:135px; height:100%; text-indent:-99em}
+.introduce{ width:1056px; height:673px; margin:61px auto 64px; position:relative} 
+.introduce-1{ width:143px; height:190px; padding-top:11px; padding-left:8px; position:absolute; top:60px; left:23px;font-weight:bold; background:#ffeab7; border:1px solid #d3a651; border-right:0; border-left:0}
+.introduce-1 h3{ height:32px; line-height:32px; font-size:20px; }
+.introduce-1 p{ line-height:21px; font-size:13px; width:134px;}
+.introduce-1 span{ color:#b70000}
+.introduce-1 a{ display:block; width:68px; height:24px; background:#b19348; text-align:center; line-height:24px; font-size:13px; color:#FFF; margin:12px 0 0 2px}
+.introduce-2{ top:249px; left:93px; z-index:99}
+.introduce-3{ top:426px; left:81px}
+.introduce-4{ top:470px; left:321px}
+.introduce-5{ top:439px; left:785px; z-index:99; border-bottom:0}
+.introduce-6{ top:255px; left:889px;border-bottom:0}
+.introduce-7{ top:48px; left:903px}
